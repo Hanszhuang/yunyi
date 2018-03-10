@@ -20,6 +20,9 @@ baseline cnn 版本 线上0.500左右 ，调参可到0.502
 3. 2018-02-08
 经过群上的大佬们指点，之前的找的停用词有点问题，换成 @Yin叔 提供的版本，感谢  @Yin叔
 
+4. 2018-03-10
+如果是python3  将 splitWord 中result 的 encode('utf-8')去掉，代码即可运行
+
 ##### score 线上线下不一致，但是loss 貌似还算一致，线下loss有降低，线上metric有提高，故 earlystop 看val_loss
 
 
